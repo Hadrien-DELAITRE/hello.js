@@ -2,10 +2,10 @@
   "name": "hellojs",
   "version": "1.3.2",
   "description": "A clientside Javascript library for standardizing requests to OAuth2 web services (and OAuth1 - with a shim)",
-  "main": "dist/hello.all.js",
+  "browser": "dist/hello.all.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com/MrSwitch/hello.js"
+    "url": "git@github.com:Hadrien-DELAITRE/hello.js.git"
   },
   "keywords": [
     "oauth",
