@@ -1,7 +1,8 @@
 {
   "name": "hellojs",
-  "version": "1.3.2",
+  "version": "1.6.0",
   "description": "A clientside Javascript library for standardizing requests to OAuth2 web services (and OAuth1 - with a shim)",
+  "homepage": "https://adodson.com/hello.js",
   "main": "dist/false.js",
   "browser": "dist/hello.all.js",
   "repository": {
@@ -19,7 +20,10 @@
     "linkedin",
     "twitter"
   ],
-  "author": "Andrew Dodson <andrewjdodson@gmail.com>",
+  "author": {
+    "name": "Andrew Dodson",
+    "email": "andrewjdodson@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MrSwitch/hello.js/issues"
@@ -28,26 +32,15 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "shunt": "^0.1.4",
-    "karma-firefox-launcher": "~0.1.0",
-    "karma-script-launcher": "~0.1.0",
-    "karma-chrome-launcher": "~0.1.0",
-    "karma-html2js-preprocessor": "~0.1.0",
-    "karma-jasmine": "~0.1.3",
-    "karma-requirejs": "~0.1.0",
-    "karma-coffee-preprocessor": "~0.1.0",
-    "karma-phantomjs-launcher": "~0.1.0",
-    "karma": "~0.9.8",
-    "karma-junit-reporter": "0.0.2",
-    "karma-mocha": "0.0.4",
-    "karma-coverage": "~0.1.2",
-    "karma-expect": "~1.0.0",
-    "grunt": "^0.4.4",
-    "grunt-mocha-phantomjs": "~0.4.3",
+    "grunt": "^0.4.5",
+    "grunt-banner": "^0.4.0",
+    "grunt-bumpup": "^0.6.1",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-watch": "^0.6.1",
+    "grunt-jscs": "^1.6.0",
+    "grunt-mocha-phantomjs": "~0.4.3",
     "mocha": "^1.18.2",
-    "sinon": "~1.7.3",
-    "grunt-bumpup": "^0.6.1"
+    "shunt": "^0.1.4",
+    "sinon": "~1.7.3"
   }
 }
